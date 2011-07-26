@@ -75,6 +75,7 @@ projects[openid_sso_provider][subdir] = "contrib"
 projects[openid_sso_provider][type] = "module"
 projects[openid_sso_provider][download][type] = "git"
 projects[openid_sso_provider][download][url] = "http://git.drupal.org/project/openid_sso_provider.git"
+projects[openid_sso_provider][download][branch] = "6.x-1.x"
 
 ; Feature (exported configuration)
 projects[omniauth_provider_core][subdir] = "features"

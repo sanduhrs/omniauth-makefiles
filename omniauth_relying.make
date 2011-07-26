@@ -63,6 +63,7 @@ projects[openid_sso_relying][subdir] = "contrib"
 projects[openid_sso_relying][type] = "module"
 projects[openid_sso_relying][download][type] = "git"
 projects[openid_sso_relying][download][url] = "http://git.drupal.org/project/openid_sso_relying.git"
+projects[openid_sso_relying][download][branch] = "6.x-1.x"
 
 ; Feature (exported configuration)
 projects[omniauth_relying_core][subdir] = "features"
