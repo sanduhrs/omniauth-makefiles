@@ -1,69 +1,54 @@
-; $Id$
-
 ; Drush make version
 api = 2
 
 ; Drupal core
-core = 6.x
+core = 7.x
 
 projects[] = drupal
 
 ; Contrib projects 
-projects[cck][subdir] = "contrib"
-projects[cck][version] = "2.8"
-
-projects[date][subdir] = "contrib"
-projects[date][version] = "2.6"
-
-projects[jquery_ui][subdir] = "contrib"
-projects[jquery_ui][version] = "1.4"
-libraries[jquery_ui][download][type] = get
-libraries[jquery_ui][download][url] = http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip
-libraries[jquery_ui][destination] = modules/contrib/jquery_ui
-libraries[jquery_ui][directory_name] = jquery.ui
-
-projects[content_profile][subdir] = "contrib"
-projects[content_profile][version] = "1.0"
-
 projects[auto_nodetitle][subdir] = "contrib"
-projects[auto_nodetitle][version] = "1.2"
+projects[auto_nodetitle][version] = "1.0"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.8"
+projects[ctools][version] = "1.0-rc1"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.15"
+projects[token][version] = "1.0-beta3"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0"
+projects[features][version] = "1.0-beta3"
 
 projects[openidadmin][subdir] = "contrib"
-projects[openidadmin][version] = "1.2"
+projects[openidadmin][version] = "1.0"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0"
+projects[strongarm][version] = "2.0-beta2"
 
 projects[openid_profile][subdir] = "contrib"
 projects[openid_profile][type] = "module"
 projects[openid_profile][download][type] = "git"
 projects[openid_profile][download][url] = "http://git.drupal.org/project/openid_profile.git"
-projects[openid_profile][download][branch] = "6.x-1.x"
+projects[openid_profile][download][branch] = "7.x-1.x"
+
+projects[openid_ax_api][subdir] = "contrib"
+projects[openid_ax_api][type] = "module"
+projects[openid_ax_api][download][type] = "git"
+projects[openid_ax_api][download][url] = "http://git.drupal.org/project/openid_ax_api.git"
+projects[openid_ax_api][download][branch] = "7.x-1.x"
 
 projects[openid_client_ax][subdir] = "contrib"
+projects[openid_client_ax][type] = "module"
 projects[openid_client_ax][download][type] = "git"
 projects[openid_client_ax][download][url] = "http://git.drupal.org/project/openid_client_ax.git"
-projects[openid_client_ax][download][branch] = "6.x-1.x"
+projects[openid_client_ax][download][branch] = "7.x-1.x"
 
-projects[openid_cp_field][subdir] = "contrib"
-projects[openid_cp_field][download][type] = "git"
-projects[openid_cp_field][download][url] = "http://git.drupal.org/project/openid_cp_field.git"
-projects[openid_cp_field][download][branch] = "6.x-1.x"
 
 projects[openid_sso_relying][subdir] = "contrib"
 projects[openid_sso_relying][type] = "module"
 projects[openid_sso_relying][download][type] = "git"
 projects[openid_sso_relying][download][url] = "http://git.drupal.org/project/openid_sso_relying.git"
-projects[openid_sso_relying][download][branch] = "6.x-1.x"
+projects[openid_sso_relying][download][branch] = "7.x-1.x"
 
 ; Feature (exported configuration)
 projects[omniauth_relying_core][subdir] = "features"
