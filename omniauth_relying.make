@@ -68,8 +68,11 @@ projects[omniauth_relying_core][subdir] = "features"
 projects[omniauth_relying_core][type] = "module"
 projects[omniauth_relying_core][download][type] = "git"
 projects[omniauth_relying_core][download][url] = "git://gitorious.org/omniauth/omniauth_relying_core.git"
+projects[omniauth_relying_core][download][branch] = "6.x-1.x"
+
 
 ; Installation profile
 projects[omniauth_relying][type] = "profile"
 projects[omniauth_relying][download][type] = "git"
 projects[omniauth_relying][download][url] = "git://gitorious.org/omniauth/omniauth_relying.git"
+projects[omniauth_relying][download][branch] = "6.x-1.x"

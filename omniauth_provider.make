@@ -80,9 +80,12 @@ projects[omniauth_provider_core][subdir] = "features"
 projects[omniauth_provider_core][type] = "module"
 projects[omniauth_provider_core][download][type] = "git"
 projects[omniauth_provider_core][download][url] = "git://gitorious.org/omniauth/omniauth_provider_core.git"
+projects[omniauth_provider_core][download][branch] = "6.x-1.x"
+
 
 ; Installation profile
 projects[omniauth_provider][type] = "profile"
 projects[omniauth_provider][download][type] = "git"
 projects[omniauth_provider][download][url] = "git://gitorious.org/omniauth/omniauth_provider.git"
+projects[omniauth_provider][download][branch] = "6.x-1.x"
 
