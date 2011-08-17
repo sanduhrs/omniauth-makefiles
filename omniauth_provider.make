@@ -1,5 +1,3 @@
-; $Id$
-
 ; Drush make version
 api = 2
 
