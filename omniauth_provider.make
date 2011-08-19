@@ -56,8 +56,6 @@ projects[openid_provider_ax][subdir] = "contrib"
 projects[openid_provider_ax][download][type] = "git"
 projects[openid_provider_ax][download][url] = "http://git.drupal.org/project/openid_provider_ax.git"
 projects[openid_provider_ax][download][branch] = "6.x-1.x"
-projects[openid_provider_ax][patch][] = "http://drupal.org/files/issues/501704-6-openid_provider_ax_update_url.patch"
-projects[openid_provider_ax][patch][] = "http://drupal.org/files/issues/1147224-1-openid_provider_ax-store-request.patch"
 
 projects[xrds_simple][subdir] = "contrib"
 projects[xrds_simple][download][type] = "git"
