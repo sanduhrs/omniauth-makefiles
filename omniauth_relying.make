@@ -8,18 +8,17 @@ projects[] = drupal
 
 ; Contrib projects 
 projects[cck][subdir] = "contrib"
-projects[cck][version] = "2.8"
+projects[cck][version] = "2.9"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.6"
+projects[date][version] = "2.7"
 
 projects[jquery_ui][subdir] = "contrib"
-projects[jquery_ui][version] = "1.4"
-libraries[jquery_ui][download][type] = get
-libraries[jquery_ui][download][url] = http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip
-libraries[jquery_ui][destination] = modules/contrib/jquery_ui
-libraries[jquery_ui][directory_name] = jquery.ui
-
+projects[jquery_ui][version] = "1.5"
+libraries[jquery_ui_library][download][type] = get
+libraries[jquery_ui_library][download][url] = http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip
+libraries[jquery_ui_library][destination] = modules/contrib/jquery_ui
+libraries[jquery_ui_library][directory_name] = jquery.ui
 projects[content_profile][subdir] = "contrib"
 projects[content_profile][version] = "1.0"
 
@@ -33,7 +32,7 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.15"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0"
+projects[features][version] = "1.1"
 
 projects[openidadmin][subdir] = "contrib"
 projects[openidadmin][version] = "1.2"
