@@ -7,9 +7,6 @@ core = 7.x
 projects[] = drupal
 
 ; Contrib projects 
-projects[auto_nodetitle][subdir] = "contrib"
-projects[auto_nodetitle][version] = "1.0"
-
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-rc1"
 
@@ -55,14 +52,14 @@ projects[openid_sso_provider][download][url] = "http://git.drupal.org/project/op
 projects[openid_sso_provider][download][branch] = "7.x-1.x"
 
 ; Feature (exported configuration)
-;projects[omniauth_provider_core][subdir] = "features"
-;projects[omniauth_provider_core][type] = "module"
-;projects[omniauth_provider_core][download][type] = "git"
-;projects[omniauth_provider_core][download][url] = "git://gitorious.org/omniauth/omniauth_provider_core.git"
-;projects[omniauth_provider_core][download][branch] = "7.x-1.x"
+projects[omniauth_provider_core][subdir] = "features"
+projects[omniauth_provider_core][type] = "module"
+projects[omniauth_provider_core][download][type] = "git"
+projects[omniauth_provider_core][download][url] = "git://gitorious.org/omniauth/omniauth_provider_core.git"
+projects[omniauth_provider_core][download][branch] = "7.x-1.x"
 
 ; Installation profile
-;projects[omniauth_provider][type] = "profile"
-;projects[omniauth_provider][download][type] = "git"
-;projects[omniauth_provider][download][url] = "git://gitorious.org/omniauth/omniauth_provider.git"
-;projects[omniauth_provider][download][branch] = "7.x-1.x"
+projects[omniauth_provider][type] = "profile"
+projects[omniauth_provider][download][type] = "git"
+projects[omniauth_provider][download][url] = "git://gitorious.org/omniauth/omniauth_provider.git"
+projects[omniauth_provider][download][branch] = "7.x-1.x"
