@@ -34,6 +34,11 @@ projects[openid_ax_api][download][type] = "git"
 projects[openid_ax_api][download][url] = "http://git.drupal.org/project/openid_ax_api.git"
 projects[openid_ax_api][download][branch] = "7.x-1.x"
 
+projects[openid_provider][subdir] = "patched"
+projects[openid_provider][type] = "module"
+projects[openid_provider][download][type] = "git"
+projects[openid_provider][download][url] = "http://git.drupal.org/sandbox/paranojik/1232094.git"
+
 projects[openid_provider_ax][subdir] = "contrib"
 projects[openid_provider_ax][type] = "module"
 projects[openid_provider_ax][download][type] = "git"
