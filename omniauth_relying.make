@@ -4,7 +4,9 @@ api = 2
 ; Drupal core
 core = 6.x
 
-projects[] = drupal
+projects[drupal][type] = core
+projects[drupal][version] = 6.22
+projects[drupal][patch][751578] = http://drupal.org/files/openid-language-d6_751578_10.patch
 
 ; Contrib projects 
 projects[cck][subdir] = "contrib"
