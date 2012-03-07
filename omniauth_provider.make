@@ -4,14 +4,15 @@ api = 2
 ; Drupal core
 core = 6.x
 
-projects[] = drupal
+projects[drupal][type] = core
+projects[drupal][version] = 6.25
 
 ; Contrib projects 
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.7"
+projects[date][version] = "2.8"
 
 projects[jquery_ui][subdir] = "contrib"
 projects[jquery_ui][version] = "1.5"
@@ -36,10 +37,10 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.15"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.1"
+projects[features][version] = "1.2"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0"
+projects[strongarm][version] = "2.1"
 
 projects[openid_profile][subdir] = "contrib"
 projects[openid_profile][type] = "module"
@@ -51,6 +52,8 @@ projects[openid_provider][subdir] = "contrib"
 projects[openid_provider][download][type] = "git"
 projects[openid_provider][download][url] = "http://git.drupal.org/project/openid_provider.git"
 projects[openid_provider][download][branch] = "6.x-1.x"
+projects[openid_provider][patch][1471324] = "http://drupal.org/files/openid_provider-reinsert_openid_provider_authentication_response_function-1471324-1-drush_compatible.patch"
+
 
 projects[openid_provider_ax][subdir] = "contrib"
 projects[openid_provider_ax][download][type] = "git"
