@@ -5,15 +5,14 @@ api = 2
 core = 6.x
 
 projects[drupal][type] = core
-projects[drupal][version] = 6.25
-projects[drupal][patch][751578] = http://drupal.org/files/openid-language-d6_751578_10.patch
+projects[drupal][version] = 6.26
 
-; Contrib projects 
+; Contrib projects
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 
 projects[jquery_ui][subdir] = "contrib"
 projects[jquery_ui][version] = "1.5"
@@ -28,7 +27,7 @@ projects[auto_nodetitle][subdir] = "contrib"
 projects[auto_nodetitle][version] = "1.2"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.8"
+projects[ctools][version] = "1.9"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.15"
@@ -40,7 +39,7 @@ projects[openidadmin][subdir] = "contrib"
 projects[openidadmin][version] = "1.2"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.1"
+projects[strongarm][version] = "2.2"
 
 projects[openid_profile][subdir] = "contrib"
 projects[openid_profile][type] = "module"
