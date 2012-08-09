@@ -7,7 +7,7 @@ core = 6.x
 projects[drupal][type] = core
 projects[drupal][version] = 6.25
 
-; Contrib projects 
+; Contrib projects
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
 
@@ -52,7 +52,6 @@ projects[openid_provider][subdir] = "contrib"
 projects[openid_provider][download][type] = "git"
 projects[openid_provider][download][url] = "http://git.drupal.org/project/openid_provider.git"
 projects[openid_provider][download][branch] = "6.x-1.x"
-projects[openid_provider][patch][1471324] = "http://drupal.org/files/openid_provider-reinsert_openid_provider_authentication_response_function-1471324-1-drush_compatible.patch"
 
 
 projects[openid_provider_ax][subdir] = "contrib"
