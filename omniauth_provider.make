@@ -7,26 +7,33 @@ core = 7.x
 projects[] = drupal
 
 ; Contrib projects
-projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.1"
-
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0-beta3"
 
-projects[token][subdir] = "contrib"
-projects[token][version] = "1.1"
-
-projects[features][subdir] = "contrib"
-projects[features][version] = "1.0"
+projects[ctools][subdir] = "contrib"
+projects[ctools][version] = "1.1"
 
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc3"
 
-projects[views][subdir] = "contrib"
-projects[views][version] = "3.3"
+projects[features][subdir] = "contrib"
+projects[features][version] = "1.0"
+
+projects[panels][subdir] = "contrib"
+projects[panels][version] = "3.2"
+
+projects[profile2][subdir] = "contrib"
+projects[profile2][version] = "1.2"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
+
+projects[token][subdir] = "contrib"
+projects[token][version] = "1.1"
+
+projects[views][subdir] = "contrib"
+projects[views][version] = "3.3"
+
 
 projects[openid_profile][subdir] = "contrib"
 projects[openid_profile][type] = "module"
