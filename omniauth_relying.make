@@ -5,7 +5,7 @@ api = 2
 core = 6.x
 
 projects[drupal][type] = core
-projects[drupal][version] = 6.26
+projects[drupal][version] = 6.28
 
 ; Contrib projects
 projects[cck][subdir] = "contrib"
@@ -20,6 +20,7 @@ libraries[jquery_ui_library][download][type] = get
 libraries[jquery_ui_library][download][url] = http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip
 libraries[jquery_ui_library][destination] = modules/contrib/jquery_ui
 libraries[jquery_ui_library][directory_name] = jquery.ui
+
 projects[content_profile][subdir] = "contrib"
 projects[content_profile][version] = "1.0"
 
@@ -27,10 +28,10 @@ projects[auto_nodetitle][subdir] = "contrib"
 projects[auto_nodetitle][version] = "1.2"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.10"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.15"
+projects[token][version] = "1.19"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.2"

@@ -5,7 +5,7 @@ api = 2
 core = 6.x
 
 projects[drupal][type] = core
-projects[drupal][version] = 6.26
+projects[drupal][version] = 6.28
 
 ; Contrib projects
 projects[cck][subdir] = "contrib"
@@ -28,13 +28,13 @@ projects[auto_nodetitle][subdir] = "contrib"
 projects[auto_nodetitle][version] = "1.2"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.10"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0"
+projects[context][version] = "3.3"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.15"
+projects[token][version] = "1.19"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.2"
