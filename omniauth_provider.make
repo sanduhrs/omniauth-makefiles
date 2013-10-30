@@ -8,32 +8,37 @@ projects[] = drupal
 
 ; Contrib projects
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta3"
+projects[context][version] = "3.1"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.1"
+projects[ctools][version] = "1.3"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.0-rc3"
+projects[entity][version] = "1.2"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0"
+projects[features][version] = "2.0"
+
+projects[openid_provider][subdir] = "contrib"
+projects[openid_provider][version] = "1.0"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.2"
+projects[panels][version] = "3.3"
 
 projects[profile2][subdir] = "contrib"
-projects[profile2][version] = "1.2"
+projects[profile2][version] = "1.3"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.1"
+projects[token][version] = "1.5"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.3"
+projects[views][version] = "3.37"
 
+projects[xrds_simple][subdir] = "contrib"
+projects[xrds_simple][version] = "1.1"
 
 projects[openid_profile][subdir] = "contrib"
 projects[openid_profile][type] = "module"
@@ -47,21 +52,11 @@ projects[openid_ax_api][download][type] = "git"
 projects[openid_ax_api][download][url] = "http://git.drupal.org/project/openid_ax_api.git"
 projects[openid_ax_api][download][branch] = "7.x-1.x"
 
-projects[openid_provider][subdir] = "patched"
-projects[openid_provider][type] = "module"
-projects[openid_provider][download][type] = "git"
-projects[openid_provider][download][url] = "http://git.drupal.org/sandbox/paranojik/1232094.git"
-
 projects[openid_provider_ax][subdir] = "contrib"
 projects[openid_provider_ax][type] = "module"
 projects[openid_provider_ax][download][type] = "git"
 projects[openid_provider_ax][download][url] = "http://git.drupal.org/project/openid_provider_ax.git"
 projects[openid_provider_ax][download][branch] = "7.x-1.x"
-
-projects[xrds_simple][subdir] = "patched"
-projects[xrds_simple][type] = "module"
-projects[xrds_simple][download][type] = "git"
-projects[xrds_simple][download][url] = "http://git.drupal.org/sandbox/paranojik/1232184.git"
 
 projects[openid_sso_provider][subdir] = "contrib"
 projects[openid_sso_provider][type] = "module"
