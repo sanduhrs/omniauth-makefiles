@@ -20,7 +20,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "2.0"
 
 projects[openid_provider][subdir] = "contrib"
-projects[openid_provider][version] = "1.0"
+projects[openid_provider][version] = "1.x-dev"
 
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.3"
@@ -35,7 +35,7 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.5"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.37"
+projects[views][version] = "3.7"
 
 projects[xrds_simple][subdir] = "contrib"
 projects[xrds_simple][version] = "1.1"
